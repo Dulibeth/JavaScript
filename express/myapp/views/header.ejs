@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="topnav">   
+                <% if (user) { %>
+                <a href="/">Inicio</a></li>
+                <a href="/restricted">Restricted</a></li>   
+                <a id="logout" href="/logout">Logout</a></li>       
+                <% } else { %> 
+                <a href="/">Inicio</a></li>
+                <a href="/login">Login</a></li>
+                <a href="/register">Register</a></li>
+                <% } %>      
+    </div>
+
+   
+
+  

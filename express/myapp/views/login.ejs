@@ -1,0 +1,13 @@
+<%- include("header", {}) %>
+<h1><%= title %></h1>
+<div class="login">
+    <form method="post" action="/login">
+        <label for="name">Nombre</label><br>
+        <input type="text" id="name" name="name" placeholder="Introduce tu email"><br>
+        <label form="password">Contraseña</label><br>
+        <input type="password" id="password" name="pass" placeholder="Introduce tu contraseña"><br>
+        <button type="submit"> Submit </button>
+    </form>
+</div>
+<%- include("footer", {}) %>
+

@@ -1,0 +1,73 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.topnav {
+ padding: 15px ;
+ background-color: rgb(99, 99, 247);
+ position: fixed;
+ width: 100%;
+top: 0;
+left: 0;
+ 
+}
+
+.topnav a{
+  font-size: 23px;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 10px; 
+
+}
+
+.topnav a:hover{
+  color: blueviolet;
+  background-color: rgb(172, 172, 173);
+}
+
+.register {
+  margin-left: 50px;
+}
+
+.login {
+    margin-left: 50px;
+}
+
+.storie {
+  columns: 1;
+  text-align: center;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.storie p {
+  font-size: 20px;
+  color: rgb(99, 97, 97);
+}
+
+h1 {
+  padding-top: 70px;
+  padding-bottom: 0px;
+}
+
+h3 {
+  margin-top:80px;
+  margin-left: 20px;
+}
+
+#logout {
+margin-left: 75%;
+}
+
+#cookies {
+  background-color: rgb(147, 198, 243);
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+}
